@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\Algorithm.cs" />
+    <Compile Include="Algorithm\AStar.cs" />
+    <Compile Include="Algorithm\BellmanFord.cs" />
+    <Compile Include="Algorithm\BreadthFirst.cs" />
+    <Compile Include="Algorithm\DephtFirst.cs" />
+    <Compile Include="Algorithm\Djikstra.cs" />
+    <Compile Include="Environment\Map.cs" />
+    <Compile Include="Environment\Patch.cs" />
+    <Compile Include="Environment\PatchTypeConverter.cs" />
+    <Compile Include="Graph\Edge.cs" />
+    <Compile Include="Graph\GraphType.cs" />
+    <Compile Include="Graph\Node.cs" />
+    <Compile Include="IHM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
